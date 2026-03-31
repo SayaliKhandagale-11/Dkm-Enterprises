@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PasswordGenerator",
+            "request": "launch",
+            "mainClass": "com.quickcart.backend.util.PasswordGenerator",
+            "projectName": "backend"
+        },
+        {
+            "type": "java",
+            "name": "PasswordHashGenerator",
+            "request": "launch",
+            "mainClass": "com.quickcart.backend.util.PasswordHashGenerator",
+            "projectName": "backend"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
